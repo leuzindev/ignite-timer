@@ -1,5 +1,4 @@
-import { createGlobalStyle } from "styled-components";
-
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   	* {
@@ -15,13 +14,20 @@ export const GlobalStyle = createGlobalStyle`
 				font-size: 87.5%;
 		}
 	}
+	:focus{
+		outline: 0;
+		box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']};
+	}
+
 	body {
-		background: var(--background);
+		background: ${(props) => props.theme['gray-900']};
+		color: ${(props) => props.theme['gray-500']};
 		-webkit-font-smoothing: antialised
 	}
 	body, input, textarea, button {
-		font-family: 'Poppins', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
+		font-size: 1rem;
 	}
 	h1, h2, h3, h4, h5, h6, strong {
 		font-weight: 600;
