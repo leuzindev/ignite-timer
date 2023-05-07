@@ -46,7 +46,19 @@ export function cyclesReducer(state: CyclesState, action: any) {
         draft.cycles[currentCycleIndex].finishedDate = new Date()
       })
     }
+    case ActionTypes.DELETE_CYCLE: {
+      const currentCycleIndex = state.cycles.findIndex((cycle) => {
+        return cycle.id === action.payload.cycleId
+      })
 
+      if (currentCycleIndex < 0) {
+        return state
+      }
+
+      return produce(state, (draft) => {
+        draft.cycles.splice(currentCycleIndex, 1)
+      })
+    }
     default:
       return state
   }
