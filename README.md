@@ -102,17 +102,3 @@ Segue os comandos para baixar e executar o projeto na sua máquina:
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## ✍ Author
-
-<img alt="PabloXT14" title="PabloXT14" src="https://github.com/PabloXT14.png" width="100">
-<p>
-    Made with 💜 by PabloXT14
-</p>
-<p align="left">
-    <a href="https://www.linkedin.com/in/pabloalan/" target="_blank">
-        <img align="center" src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Pablo Alan" />
-    </a>
-    <a href="mailto:pabloxt14@gmail.com" target="_blank">
-        <img align="center" src="https://img.shields.io/badge/Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Pablo Alan" />
-    </a>
-</p>
